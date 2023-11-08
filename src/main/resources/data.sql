@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS book(id INTEGER NOT NULL, name VARCHAR(100) NOT NULL, author VARCHAR(100) NOT NULL, PRIMARY KEY(id));
+INSERT INTO book (id, name, author) VALUE (1,"Book","Author");
